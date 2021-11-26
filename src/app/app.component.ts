@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { DataPaginaService } from './services/data-pagina.service';
+import { ProductosService } from './services/productos.service';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +9,6 @@ import { DataPaginaService } from './services/data-pagina.service';
 })
 export class AppComponent {
 
-  constructor( private service: DataPaginaService ) {
-
-  }
+  constructor() { }
 
 }

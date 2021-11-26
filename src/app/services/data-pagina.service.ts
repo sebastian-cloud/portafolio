@@ -25,7 +25,6 @@ export class DataPaginaService {
 
       this.cargada = true;
       this.info = resp;
-      console.log( resp )
 
     } );
     

@@ -18,6 +18,10 @@ const routes: Routes = [
     component: ItemComponent
   },
   {
+    path: 'item/:id',
+    component: ItemComponent
+  },
+  {
     path: '**',
     redirectTo: 'home'
   }
