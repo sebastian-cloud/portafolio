@@ -9,3 +9,11 @@ export interface DataPagina {
     tumblr?:         string;
     equipo_trabajo?: any[];
 }
+
+export interface Member {
+    frase:     string;
+    nombre:    string;
+    subtitulo: string;
+    twitter:   string;
+    url:       string;
+}
